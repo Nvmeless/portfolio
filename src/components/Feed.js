@@ -32,8 +32,8 @@ class Feed extends React.Component {
             container:{
                 overflowY:"auto",
                 backgroundColor:"transparent",
-                width: "80vw",
-                maxWidth: "80vw",
+                minwidth: "80vw",
+                maxWidth: "100vw",
                 heiht: "auto",
                 minHeight:"100vh",
                 position:"relative",

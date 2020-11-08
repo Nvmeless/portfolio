@@ -20,9 +20,9 @@ class Projects extends React.Component {
         }
         const style = {
             container:{
+                boxSizing: 'border-box',
                 backgroundColor: colors.backgroundLayer.two,
-                heiht: "auto",
-                minHeight:"30vh",
+                height: "auto",
                 margin:"1% 1% 0% 1%",
                 color:"white",
                 textAlign:"left",
